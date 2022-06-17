@@ -1,0 +1,74 @@
+.commentCard{
+    max-width: 75%;
+	min-height: 600px;
+	justify-content: space-between;
+	margin: auto;
+	border: 4px solid #f1f1f1;
+
+	@media only screen and (min-width: 1193px) {
+		max-width: 70%;
+	}
+
+	@media only screen and (min-width: 1312px) {
+		max-width: 60vw;
+	}
+
+	@media only screen and (min-width: 768px) {
+		flex-wrap: nowrap;
+	}
+
+	@media only screen and (max-width: 768px) {
+		max-width: 80%;
+	}
+
+	@media only screen and (max-width: 512px) {
+		max-width: 90%;
+	}
+}
+.postDetail{
+
+	height: 100%;
+	/* width: 60%; */
+	@media only screen and (max-width: 768px) {
+		width: 100%;
+		padding-bottom: 0;
+	}
+}
+.postDescription{
+    padding: 1em;
+	padding-bottom: 1.5em;
+	padding-left: 0;
+	justify-content: space-between;
+
+	@media only screen and (max-width: 768px) {
+		text-align: center;
+	}
+}
+.commentBox{
+    padding: 0.8em 0.4em 0.8em 0;
+	border-bottom: 1px solid #eee;
+}
+.author{
+    color: #0056af;
+	font-weight: 800;
+	font-size: 0.8em;
+	margin-right: 0.7em;
+	cursor: pointer;
+}
+.commentText{
+    color: #595c5b;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+.commentForm{
+    display: flex;
+	flex-flow: column;
+	width: 100%;
+}
+.commentInput{
+    outline: none;
+	border: none;
+	padding: 0.8em 0.4em 0.8em 0;
+	border-bottom: 1px solid #eee;
+	color: #595c5b;
+}
